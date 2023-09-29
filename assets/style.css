@@ -124,7 +124,8 @@ header {
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
 #banner .arrow {
-	position: absolute;
+	position: absolute;	
+	cursor: pointer;
 }
 #banner .arrow_left {
 	left: 10px;
