@@ -35,7 +35,15 @@ const dotsContainer = document.querySelector(".dots");
 // Variable stockant l'index de l'image actuelle
 let currentSlideIndex = 0;
 
-
+// Créez les dots en fonction du nombre d'images dans le tableau 'slides'
+for (let index = 0; index < slides.length; index++) {
+  // Création d'un élément <div>
+  const dot = document.createElement("div");
+  // Ajout de la classe 'dot' à la div
+  dot.classList.add("dot");
+  //insertion de la div.dot dans son parent div.dots
+  dotsContainer.appendChild(dot);
+}
 
 // Écouter le click flèche gauche
 arrowLeft.addEventListener("click", () => {
