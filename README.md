@@ -1,3 +1,5 @@
+![repository-Projet5](https://github.com/aurelienLRY/OCC-P5-Print_it/assets/83220559/65bbcdd7-c9c8-4518-857f-c3dcbad1b2f5)
+
 # Projet 5 - Premiers pas sur le langage JavaScript
 
 ## Contexte du projet
